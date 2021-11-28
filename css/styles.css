@@ -206,3 +206,49 @@ option {
 
 /*-------------------------------/footer-----------------------------*/
 
+/*----------------------mediaquery----------------------------------*/
+
+@media only screen and (max-width:425px) {
+    .topNav {
+        position: static;
+    }
+    #imageParagraph {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .topNav {
+        position: sticky;
+    }
+    .topNav ul li a {
+        margin-left: 0px;
+        font-size: 20px;
+        ;
+    }
+    #logo a {
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    #imageParagraph {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .topNav ul li a {
+        margin-left: 0px;
+        font-size: 20px;
+        ;
+    }
+    #logo a {
+        font-size: 30px;
+    }
+    .slidingImages {
+        margin-top: 80px !important;
+    }
+    #imageParagraph {
+        display: none;
+    }
+}
+
