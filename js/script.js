@@ -158,6 +158,26 @@ $(document).ready(function() {
         $("#pizzaNumber").val("")
 
     })
+    $(document).on("click", "#btnDelivery", () => {
+
+        var location = prompt("Confirm Your Location:")
+
+
+
+        if (!location) {
+
+            alert("You have not selected any location")
+
+
+        } else {
+
+            prompt("Your Email Address:")
+            prompt("Your Telephone no.")
+            alert("Your order will be delivered to " + location + " hence you  will have to pay ksh.200 extra.")
+
+        }
+
+    })
 
 })
 
