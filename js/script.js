@@ -56,7 +56,7 @@ CrustType.prototype.crustName = function() {
 
 }
 
-   // ----------------------------------ToppingName--------------------------
+// ----------------------------------ToppingName--------------------------
 
 function Topping(name) {
 
@@ -67,7 +67,7 @@ Topping.prototype.toppingName = function() {
 
     return this.ToppingName;
 
-} 
+}
 
 
 //user interface Logic
@@ -180,17 +180,12 @@ $(document).ready(function() {
 
             alert("We are located at Kinyanjui road along Naivasha road - Nairobi.")
         })
-    
-    
+
+
         $("#abou").click(function() {
-    
+
             alert("We are located at Kinyanjui road along Naivasha road - Nairobi.")
         })
     })
 
 })
-
-   
-
-
-
