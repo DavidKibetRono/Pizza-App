@@ -69,6 +69,35 @@ Topping.prototype.toppingName = function() {
 
 } 
 
+
+//user interface Logic
+$(document).ready(function() {
+    $("#menu").on("click", function(e) {
+        e.preventDefault()
+        $("#menuRow").slideDown("slow");
+        $(".slidingImages").css("opacity", "0.1");
+        $("body").css("background-color", "#262E3F");
+
+    })
+    $(document).on("click", "#aboutLink", function() {
+        $("#menuRow").hide("slow");
+        $(".slidingImages").css("opacity", "1.0");
+    })
+
+    $(document).on("click", "#contactLink", function() {
+        $("#menuRow").hide("slow");
+        $(".slidingImages").css("opacity", "1.0");
+    })
+
+    $(document).on("click", "#orderLink", function() {
+        $("#menuRow").hide("slow");
+        $(".slidingImages").css("opacity", "1.0");
+    })
+
+    
+
+})
+
    
 
 
