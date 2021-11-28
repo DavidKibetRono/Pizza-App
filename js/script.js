@@ -42,6 +42,20 @@ PizzaName.prototype.pizzaTotal = function() {
 }
 
 
+// ----------------------------------CrustType--------------------------
+
+function CrustType(name) {
+
+    this.TypeOfCrust = name;
+
+}
+
+CrustType.prototype.crustName = function() {
+
+    return this.TypeOfCrust
+
+}
+
     
 
    
