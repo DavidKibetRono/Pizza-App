@@ -184,4 +184,25 @@ option {
 
 
 /*-----------------------------------------Order Form----------------------------*/
+/*-------------------------------footer-----------------------------*/
+
+.footer {
+    height: 50px;
+    background-color: #E6EFD6;
+    color: peru;
+}
+
+.footer i {
+    padding-left: 30px;
+}
+
+.footer-bottom {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*-------------------------------/footer-----------------------------*/
 
