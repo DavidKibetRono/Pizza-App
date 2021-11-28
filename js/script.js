@@ -176,7 +176,16 @@ $(document).ready(function() {
             alert("Your order will be delivered to " + location + " hence you  will have to pay ksh.200 extra.")
 
         }
+        $(document).on("click", "#btnPickUp", function() {
 
+            alert("We are located at Kinyanjui road along Naivasha road - Nairobi.")
+        })
+    
+    
+        $("#abou").click(function() {
+    
+            alert("We are located at Kinyanjui road along Naivasha road - Nairobi.")
+        })
     })
 
 })
