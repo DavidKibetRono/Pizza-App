@@ -126,3 +126,62 @@ strong{
     color: peru;
     text-align: center;
 }
+
+/*-----------------------------------------Order Form----------------------------*/
+
+select {
+    height: 50px !important;
+    border: 2px solid cadetblue !important;
+    background-color: #E6EFD6 !important;
+    font-size: 20px !important;
+}
+
+input {
+    font-size: 20px !important;
+    height: 50px !important;
+    background-color: #E6EFD6 !important;
+}
+
+option {
+    font-size: 20px;
+}
+
+#small1,
+#small2,
+#small3,
+#small4 {
+    display: none;
+}
+
+#medium1,
+#medium2,
+#medium3,
+#medium4 {
+    display: none;
+}
+
+#large1,
+#large2,
+#large3,
+#large4 {
+    display: none;
+}
+
+#checkoutHeader {
+    color: peru
+}
+
+#checkouts {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#checkouts h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*-----------------------------------------Order Form----------------------------*/
+
