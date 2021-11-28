@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+#imageSlides {
+    position: absolute;
+    width: 98%;
+    height: 690px;
+    background-color: #121619 !important;
+    animation: zoom-out 3s linear infinite;
+    opacity: 0.7;
+}
+
+@keyframes zoom-out {
+    100% {
+        width: 100%;
+    }
+}
+
+#imageParagraph {
+    font-size: 50px;
+    position: absolute;
+    left: 800px;
+    top: 600px;
+    color: black;
+    text-shadow: 2px 2px 5px peru;
+}
+
+u {
+    text-decoration: none;
+}
+
+.content1 {
+    animation: A 12s linear infinite;
+}
+
+.content2 {
+    animation: B 12s linear infinite;
+}
+
+.content3 {
+    animation: C 12s linear infinite;
+}
+
+.content4 {
+    animation: D 12s linear infinite;
+}
+
+@keyframes A {
+    0% {
+        visibility: visible;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes B {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: visible;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes C {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes D {
+    0% {
+        visibility: hidden;
+    }
+    25% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    75% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
