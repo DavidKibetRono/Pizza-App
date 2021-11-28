@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #262E3F;
+}
+
+
+/*--------------------------------------------Navigation bar----------------------------------*/
+
+.topNav {
+    background-color: #121619;
+    border: none;
+    padding-top: 10px !important;
+}
+
+.topNav ul li {
+    list-style-type: none;
+}
+
+.topNav ul li a {
+    color: #ffffff !important;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px !important;
+}
+
+#logo a {
+    color: peru !important;
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+
+#logo a span {
+    color: yellow
+}
+
+
+/*---------------------------------------/Navigation bar---------------------------------*/
