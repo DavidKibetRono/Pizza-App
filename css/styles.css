@@ -93,3 +93,36 @@ body {
 
 
 /*-----------------------------------/Sliding images-----------------------------------*/
+
+
+/*-----------------------------------About---------------------------------------*/
+
+.about {
+    color: white;
+    margin-top: 700px;
+    clear: both;
+}
+strong{
+    font-family: 'Courgette', cursive;
+}
+.about h1 {
+    text-align: center;
+    color: peru;
+}
+
+.about h1 span {
+    color: yellow;
+}
+
+.about h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.orders {
+    color: white;
+}
+
+#orderTitle {
+    color: peru;
+    text-align: center;
+}
