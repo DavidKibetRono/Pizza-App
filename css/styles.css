@@ -43,3 +43,53 @@ body {
 
 
 /*---------------------------------------/Navigation bar---------------------------------*/
+
+/*---------------------------------------Sliding images----------------------------------*/
+
+.mymenu {
+    position: absolute;
+}
+
+#menuRow {
+    height: auto;
+    background-color: white;
+    color: black;
+    opacity: 1.0;
+    display: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#menuRow h1 {
+    color: peru;
+}
+
+.inner-menu u {
+    color: peru;
+    text-decoration: underline;
+}
+
+.inner-menu h1 {
+    text-align: justify;
+}
+
+.inner-menu h2 {
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#menuImages {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 200px;
+}
+
+.slidingImages {
+    margin-top: 75px !important;
+}
+
+
+/*-----------------------------------/Sliding images-----------------------------------*/
