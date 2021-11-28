@@ -27,7 +27,19 @@ function small(selectedValue) {
     }
 
 }
+// ----------------------------------PizzaSize------------------------
 
+function PizzaName(name) {
+
+    this.myPizzaName = name;
+
+}
+
+PizzaName.prototype.pizzaTotal = function() {
+
+    return this.myPizzaName;
+
+}
 
 
     
