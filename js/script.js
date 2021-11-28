@@ -56,7 +56,18 @@ CrustType.prototype.crustName = function() {
 
 }
 
-    
+   // ----------------------------------ToppingName--------------------------
+
+function Topping(name) {
+
+    this.ToppingName = name;
+}
+
+Topping.prototype.toppingName = function() {
+
+    return this.ToppingName;
+
+} 
 
    
 
